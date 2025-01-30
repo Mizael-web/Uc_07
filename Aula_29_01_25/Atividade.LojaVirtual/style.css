@@ -4,7 +4,6 @@
     box-sizing: border-box; /* Inclui bordas e preenchimento para calcular o tamanho */
 }
 
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -71,17 +70,26 @@ header {
     font-weight: bold;
 } 
 
-footer {
-   color: white;
-   background-color: blue;
-   padding: 1rem;
-   word-spacing: 1rem;
-
+.preço {
+     color: blue;
+    text-align: left;
 }
+
+
 main h3{
        text-align:left ;
 }
 
+
 main p{
        text-align:left ;
 }
+
+
+footer {
+    color: white;
+    background-color: blue;
+    padding: 1rem;
+    word-spacing: 1rem;
+    text-align:center;
+} 
