@@ -90,6 +90,7 @@ margin-top: var(--espacamento);
     }
 
 #inscricao button{
+    margin-top: var(--espacamento);
     background-color: white;
     color: var(--cor-primaria);
     border: none;
