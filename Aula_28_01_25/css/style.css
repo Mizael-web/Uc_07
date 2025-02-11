@@ -1,0 +1,102 @@
+
+
+/* site w3schools.com/css_tont.asp*/
+
+*{
+    margin : 0; /* remover margem*/
+    padding: 0; /* remover todo o preencimento*/
+    box-sizing: border-box;/* inluir bordas e preenchimento*/
+
+}
+
+body {
+/* seletor de tags */
+
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    line-height: 1.6;/* define espaçamento entre linhas*/
+    color: #333;/* define a cor do texto para cinza escuro*/
+    background-color: #f4f4f4;/* define cor de fundo cinza clar0*/
+    padding: 20px 0;/* adiciona espaçamento interno ao corpo*/
+}
+background-color: #0056b3;
+color: white;
+text-align: center;
+padding: 10px 0;
+
+
+header h1 {
+
+    margin-bottom: 10px;
+}
+
+ /*formatar a barra de navegaçao*/
+
+ nav ul {
+    list-style: none;/* remove os marcores padrao da lista*/
+    display:flex;/*aplica o display felixel ( linha comportamento padrao*/
+    justify-content: center; /* centraliza os itens de texto da lista*/
+    gap: 15px; /* adiciona um espaçamento entre os itens*/
+    padding: 5px ;
+ }
+
+ nav a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado dos links*/
+    margin-right: 10px ;
+
+ }
+
+ nav a:hover{
+    text-decoration: underline; /* adiciona um subinhado ao passar o mouse*/
+ }
+   
+section {
+    margin:20px 0;/* adicioina espaçamento vertical entre as seçoes*/
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px; /* arrdondar as bordas das sectin*/;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.8);/* adiciona um pouco de sombra a section horizontal,
+    vertical, esfumaçado*/
+    
+}
+
+section h2 {
+ collor: #0056b3;
+ /*margin-bottom: 10px;*/
+ padding-bottom: 10px;
+
+}
+
+section ul{
+
+    margin-left: 20px;
+    list-style-type: "●" ;
+    }
+
+    section li{
+
+        margin-bottom: 5px;
+        padding: 5px ;
+    }
+
+    footer {
+       text-align: center;
+    }
+
+
+
+/*  seeltor de tag*/
+h3{
+
+    background-color: black;
+}
+
+/* seletor de classe*/
+.testeee{
+    background-color: aliceblue;
+{
+
+/*seletor de id */
+#homeee {
+    background-color:  aquamarine;
+}

@@ -1,0 +1,203 @@
+
+:root{
+    --cor-primaria: #0077b6;    
+    --cor_secundaria:#023e8a;    
+    --cor-fundo: #f4f4f4;    
+    --espacamento: 1rem;    
+    --cor-texto:#333;
+    --borda-aredondamento: 0.625rem;
+    --color:white; 
+    /* configuração da pagina para especificar onde achar necessario   */
+        
+    
+    *{
+        margin: 0;
+        /* margem em toda a pagina zeradas em ambos os lados */
+        border-radius: var(--borda-aredondamento); 
+        /* Borda arredondadas em toda a pagina         */
+        }
+    
+    body {
+    
+        font-family: Arial, Helvetica, sans-serif;
+        /* fonte da letra em todo a pagina      */
+        color: var(--cor-texto);
+        /* cor da letra no corpo da pagina */    
+        text-align: center;   
+        /* centralilzando o alinhamento do texto                                  */
+           
+    }
+
+    header {
+        background-color: var(--cor-primaria);
+        /* Cor de fundo do cabeçalho */
+        
+        color: var(--color);
+        /* cor da letra no cabeçalho */
+
+        padding:var(--espacamento);
+        /* espaçamento na altura do  cabeçalho topo e fundo */
+         
+        word-spacing: 2rem; 
+        /* espaçamento entre as palavras */
+
+    }
+
+    nav ul{
+
+        display: flex;        
+        justify-content: space-between ; 
+        /* pra ficar um do lado do outro     */
+        gap: var(--espacamento);
+        /* espaçamento entre os itens */
+        margin-top: 0.5rem;
+        /* margem dentro da nav entre o titulo e os itens*/
+        padding: var(--espacamento);
+        /* aumento de espaçamento entre os itens, titulo e header */
+        
+                
+    }
+    
+    a{
+    text-decoration: none;
+    /* tirar a marcaçao do texto menu do cabeçalho */
+    color: var(--color); 
+       /*escolha da cor do texto no cabeçaho  */
+    
+    }
+      
+    nav a:hover{
+        text-decoration: underline;
+        /* colocar uma linha abaixo do menu do cabeçalho ao passar o mouse sobre a palavra*/
+        color: var(--cor-texto);
+        /* cor do texto do ao passar o mouse pela palabra do menu */
+        
+    }
+    
+     
+}
+    
+   main section h2{
+
+    padding: var(--espacamento);
+    /* espaçamento superior e inferior da frase que se encontra no h2 do main */
+   } 
+      
+   
+ 
+    .imagem {
+
+      justify-content: center;
+      /* justificar o texto no centro */
+      padding: var(--espacamento);
+      /* espaçamento superior e inferior da frase que se encontra no h2 do main */
+    } 
+     
+   
+    section p{
+        padding: var(--espacamento);
+        /* espaçamento superior e inferior do paragrafo        */
+    
+    }
+
+
+    main h2{
+        background-color: antiquewhite;
+
+    }
+
+
+
+    .container {
+        display: flex;
+        /* organizar os itens/elementos de forma flexivel */
+        background-color: antiquewhite;
+        /* cor do fundo do container */
+        gap: var(--espacamento);
+        /* espaçamento entre as linha ou colunas do flex */
+        color:white;
+        /* cor das palavras ou itens */
+        padding: var(--espacamento);
+        /* espaçamento suprior e inferior do flex */    
+        justify-content: space-between;
+        /* justicar o texto no centro do container */
+                     
+
+
+    }
+ 
+       
+    .flexbox { 
+        display: flexbox; 
+           /* organizar os itens/elementos*/
+        background-color: #0077b6;
+        /* cor de fundo do box  */
+        color: var(--color);
+        /*cor da letra do texto  */
+        height: 5rem;
+        /* altura do texto*/
+        padding: var(--espacamento);
+        /* espaçamento superior e inferior do container */ 
+        justify-content: space-between;
+       /* justicar item/elemento lado a lado */
+        align-items: center;
+        /* alinha itens no centro de cada box */                
+    }
+
+                
+            
+        .flexbox a:hover{          
+        text-decoration: underline;
+        /* colocar uma linha abaixo ao passar o mouse sobre a palavra*/
+        color: var(--cor-texto);
+        /* cor do texto do ao passar o mouse pelavra*/
+           
+
+
+    }
+  
+   
+      
+    footer{
+        display: flex;
+        /* organizar os itens/elementos de forma flexivel */
+        background-color: var(--cor-primaria);
+         /* cor de fundo  */
+        color:white;
+          /*cor da letra do texto  */
+        padding: var(--espacamento);
+        /* espaçamento superior e inferior */
+        margin-top: var(--espacamento);
+        /* margem superior do container */
+        justify-content: center;
+        /* perimite justificar os itens ou elementos no centro  */
+                             
+    }
+
+    footer p:hover{
+        color: var(--cor-texto);
+        /* cor do texto  ao passar o mouse */
+    }
+      
+  
+
+    footer p{      
+        padding: var(--espacamento);
+        /* espaçamento superior e inferior na linha p */ 
+    }
+
+
+
+    footer 
+      .redes img{  
+        width: 2.5rem; 
+         /*largura do icone  */
+        height: 2.5rem; 
+            /*altura da imagem do icone  */
+    }
+
+
+
+
+  
+
